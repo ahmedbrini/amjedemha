@@ -1,0 +1,36 @@
+body{background-image: url("https://p4.wallpaperbetter.com/wallpaper/11/875/578/7680x4320-camel-desert-people-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+     background-size: cover;
+
+}
+#image1{ display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;}
+h1{color: rgb(26, 5, 5);
+text-align: center;
+text-decoration: overline;}
+#image2{ display: block;
+    margin-left: auto;
+    margin-right: auto;
+margin-top: 150px;}
+ #image3{ display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 150px;}
+#class1{color: rgb(21, 5, 5);
+text-align: center;
+font-size: x-large;
+
+}
+#class2{color: rgb(22, 5, 5);
+    text-align: center;
+    font-size: x-large;
+    }
+    #class3{color: rgb(19, 3, 3);
+        text-align: center;
+        font-size: x-large;
+        }
+

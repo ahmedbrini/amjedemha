@@ -1,0 +1,34 @@
+body{background-image: url("https://www.shutterstock.com/shutterstock/videos/1106007455/thumb/7.jpg?ip=x480");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+     background-size: cover;
+
+}
+#image1{ display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;}
+h1{color: red;
+text-align: center;
+text-decoration: overline;}
+#image2{ display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;}
+ #image3{ display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 150px;}
+#class1{color: red;
+text-align: center;
+font-size: x-large;
+}
+#class2{color: red;
+    text-align: center;
+    font-size: x-large;
+    }
+    #class3{color: red;
+        text-align: center;
+        font-size: x-large;
+        }
