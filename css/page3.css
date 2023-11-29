@@ -1,9 +1,9 @@
-body{background-image: url("https://c0.wallpaperflare.com/preview/468/930/352/background-website-plant-wall.jpg");
+ body{background-image: ("https://c0.wallpaperflare.com/preview/468/930/352/background-website-plant-wall.jpg"); 
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
      background-size: cover;
-
+background-color: beige;
 }
 #image1{ display: block;
     margin-left: auto;

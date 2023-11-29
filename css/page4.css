@@ -1,4 +1,5 @@
-body{background-image: url("https://p4.wallpaperbetter.com/wallpaper/11/875/578/7680x4320-camel-desert-people-wallpaper-preview.jpg");
+body{background-image: ("https://p4.wallpaperbetter.com/wallpaper/11/875/578/7680x4320-camel-desert-people-wallpaper-preview.jpg");
+    background-color: antiquewhite;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
