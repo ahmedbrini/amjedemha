@@ -1,3 +1,6 @@
+
+alert("Welcome To Hammamet Travller")
+
 function generateID() {
     var count = 0;
     return function () {
@@ -17,7 +20,7 @@ function generateID() {
     }
     return hotel
   }
-  var hotel1=makehotel(new Date(),'El Mouradi',"200 Dt/nuit",'4 Stars',"All inclusive")
+  var hotel1=makehotel(new Date(),'- El Mouradi -',"200 Dt/nuit",'4 Stars',"All inclusive")
   
   
   $("p1").text(hotel1.id)
@@ -27,7 +30,7 @@ function generateID() {
   $("p13").text(hotel1.descr)
   
   
-   var hotel2=makehotel(new Date(),"Radisson Palace","250 Dt/nuit","5 Stars","Demi pension")
+   var hotel2=makehotel(new Date(),"- Radisson Palace -","250 Dt/nuit","5 Stars","Demi pension")
   
   
   $("p5").text(hotel2.id)
@@ -36,7 +39,7 @@ function generateID() {
   $("p8").text(hotel2.star)
   $("p14").text(hotel2.descr)
   
-  var hotel3=makehotel(new Date(),"Royal Azur","180 Dt/nuit","4 Stars","All inclusive")
+  var hotel3=makehotel(new Date(),"- Royal Azur -","180 Dt/nuit","4 Stars","All inclusive")
   
   
   $("p9").text(hotel3.id)
@@ -61,12 +64,99 @@ $("#image2").click(
         function () {
           $("#class3").toggle()  
         }
-        )     
+        ) 
+    
+    function each(array,func){
+      for (var i=0 ; i<array.length ; i++){
+   func(array[i],i)
+      }
+    }
+    function filter(array,predicate){
+      var res=[]
+      each(array,function(e ,i){
+          if (predicate(e,i)){
+              res.push(e)
+          }
+      })
+      return res
+  }
+  
+var array=[hotel1,hotel2,hotel3]
 
+ function descr(){
+  return filter(array,function(e){
+     console.log(e.descr)
+     console.log(e.descr==="All inclusive")
+      return e.descr==="All inclusive"
+    
+  })
+ }  
+ $(document).ready(function(){
+  $("#all").click(function(){
+    $("#image2").toggle();
+  });
+ 
+});
+$(document).ready(function(){
+  $("#all").click(function(){
+    $("#class2").toggle();
+  });
+})
 
+$(document).ready(function(){
+  $("#demi").click(function(){
+    $("#image1").toggle();
+  });
+ 
+});
+$(document).ready(function(){
+  $("#demi").click(function(){
+    $("#class1").toggle();
+  });
+})
+$(document).ready(function(){
+  $("#demi").click(function(){
+    $("#image3").toggle();
+  });
+ 
+});
+$(document).ready(function(){
+  $("#demi").click(function(){
+    $("#class3").toggle();
+  });
+})
 
+function star(){
+  return filter(array,function(e){
+     console.log(e.star)
+     console.log(e.star==="5 Stars")
+      return e.star==="5 Stars"
+    })
+  }
 
-
-
+  $(document).ready(function(){
+    $("#vip").click(function(){
+      $("#image1").toggle();
+    });
+   
+  });
+  $(document).ready(function(){
+    $("#vip").click(function(){
+      $("#image3").toggle();
+    });
+   
+  });
+  $(document).ready(function(){
+    $("#vip").click(function(){
+      $("#class1").toggle();
+    });
+   
+  });
+  $(document).ready(function(){
+    $("#vip").click(function(){
+      $("#class3").toggle();
+    });
+   
+  });
 
 

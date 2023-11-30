@@ -1,3 +1,4 @@
+alert("Welcome To Sousse Travller")
 function generateID() {
     var count = 0;
     return function () {
@@ -62,3 +63,100 @@ $("#image2").click(
           $("#class3").toggle()  
         }
         )     
+       
+              
+              function each(array,func){
+                for (var i=0 ; i<array.length ; i++){
+             func(array[i],i)
+                }
+              }
+              function filter(array,predicate){
+                var res=[]
+                each(array,function(e ,i){
+                    if (predicate(e,i)){
+                        res.push(e)
+                    }
+                })
+                return res
+            }
+            
+          var array=[hotel1,hotel2,hotel3]
+          
+           function descr(){
+            return filter(array,function(e){
+               console.log(e.descr)
+               console.log(e.descr==="All inclusive")
+                return e.descr==="All inclusive"
+              
+            })
+           }  
+           $(document).ready(function(){
+            $("#all").click(function(){
+              $("#image2").toggle();
+            });
+           
+          });
+          $(document).ready(function(){
+            $("#all").click(function(){
+              $("#class2").toggle();
+            });
+          })
+          
+          $(document).ready(function(){
+            $("#all").click(function(){
+              $("#image3").toggle();
+            });
+           
+          });
+          $(document).ready(function(){
+            $("#all").click(function(){
+              $("#class3").toggle();
+            });
+          })
+          
+          $(document).ready(function(){
+            $("#demi").click(function(){
+              $("#image1").toggle();
+            });
+           
+          });
+          $(document).ready(function(){
+            $("#demi").click(function(){
+              $("#class1").toggle();
+            });
+          })
+
+
+          function star(){
+            return filter(array,function(e){
+               console.log(e.star)
+               console.log(e.star==="5 Stars")
+                return e.star==="5 Stars"
+              })
+            }
+          
+            $(document).ready(function(){
+              $("#vip").click(function(){
+                $("#image2").toggle();
+              });
+             
+            });
+            $(document).ready(function(){
+              $("#vip").click(function(){
+                $("#image3").toggle();
+              });
+             
+            });
+            $(document).ready(function(){
+              $("#vip").click(function(){
+                $("#class2").toggle();
+              });
+             
+            });
+            $(document).ready(function(){
+              $("#vip").click(function(){
+                $("#class3").toggle();
+              });
+             
+            });
+          
