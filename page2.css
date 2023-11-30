@@ -1,0 +1,119 @@
+
+div {
+border:black;
+margin:10px;
+/* border:100px; */
+padding: 5px;
+border:5px;
+border-color:black;
+display:flex;
+border-right: 100px;
+
+
+}
+
+
+
+body {
+    background-color:bisque;
+    margin-top: 5px;
+
+  
+
+}
+/* .ham,.jer  {
+    display:flex;
+justify-content: center;
+
+
+} */
+
+.pad {
+    margin-top: 20px;
+display:flex;
+justify-content: center;
+
+
+}
+
+
+button {
+    display: flex;
+    /* justify-content: space-around; */
+    /* margin-left: auto; */
+    margin-right: 5px;
+    cursor: pointer;
+    width:200px;
+    height: 50px;
+    background-color: transparent;
+    margin-top:10px;
+    display: inline-block;
+    font-size:20px;
+    
+    .bottom{
+        width:200px,
+        height:50px;
+    }
+    
+
+}
+
+#button {
+   text-align: center;
+}
+
+
+
+  img{
+    margin:5px;
+    width:10pxx;
+   border-radius: 20px;
+  }
+
+h2 {
+   
+    text-align:center;
+    font-size:40px;
+}
+
+
+.image1,.image2,.image3 {
+
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.class1 {
+    
+    
+    text-align:center;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+
+
+
+ .ham,.jer,.sus  {
+    transform: perspective(1000px) rotateX(-90deg);
+    transition:0.5s;
+}
+
+.ham.active,.jer.active,.sus.active{
+    transform: perspective(1000px) rotateX(0deg);
+ 
+}
+
+
+
+
+
+#id1,#id2,#id3{
+display:flex
+}
