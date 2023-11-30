@@ -1,0 +1,106 @@
+body{background-image: ("https://p4.wallpaperbetter.com/wallpaper/11/875/578/7680x4320-camel-desert-people-wallpaper-preview.jpg");
+    background-color: antiquewhite;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+     background-size: cover;
+
+}
+#image1{ display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;}
+h1{color: rgb(26, 5, 5);
+text-align: center;
+text-decoration: overline;}
+#image2{ display: block;
+    margin-left: auto;
+    margin-right: auto;
+margin-top: 150px;}
+ #image3{ display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 150px;}
+#class1{color: rgb(21, 5, 5);
+text-align: center;
+font-size: x-large;
+
+}
+#class2{color: rgb(22, 5, 5);
+    text-align: center;
+    font-size: x-large;
+    }
+    #class3{color: rgb(19, 3, 3);
+        text-align: center;
+        font-size: x-large;
+        }
+
+        #all{ background-color: rgb(29, 13, 150); 
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 12px;
+            transition-duration: 0.4s;
+            left:5%;
+            position: absolute}
+            
+        #demi{border-radius: 12px;
+            background-color: rgb(8, 84, 7); 
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            transition-duration: 0.4s;
+            left:85%;
+            position: absolute;
+        }
+        #all:hover {
+            background-color: rgb(67, 15, 110); 
+            color: white;
+          }
+          #demi:hover {
+            background-color: rgb(25, 169, 25); 
+            color: white;
+          }
+        
+        p13{color: green;}
+        p14{color:blue;}
+        p15{color: blue;}
+        
+        #vip{border-radius: 12px;
+            background-color: rgb(179, 204, 16); 
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            transition-duration: 0.4s;
+            left:47%;
+            top:20%;
+            position: absolute;
+        }
+        #vip:hover {
+            background-color: rgb(52, 70, 9); 
+            color: white;
+          }
+        
+        p8{color: red;}
+        
+        #class1{
+            display: none;
+        }
+        #class2{
+            display: none;
+        }
+        #class3{
+            display: none;
+        }
