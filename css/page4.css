@@ -94,3 +94,13 @@ font-size: x-large;
           }
         
         p8{color: red;}
+        
+        #class1{
+            display: none;
+        }
+        #class2{
+            display: none;
+        }
+        #class3{
+            display: none;
+        }
